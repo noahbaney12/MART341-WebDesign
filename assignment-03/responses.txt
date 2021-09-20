@@ -1,0 +1,7 @@
+Three websites that I enjoy visiting are espn.com, amazon.com, and youtube.com.
+
+An IP address is a specific number assigned to any computer to identify it on any given network.  The DNS is a domain name system that converts a hostname into a computer-friendly IP address so browsers can load internet resources.
+
+A cookie, besides being a delicious treat, is a small block of data created by a web server while a user is browsing a website. Cookies enable servers to store stateful information or track a user's browsing history.  This serves a multitude of functions including storing items saved in your online shopping carts, saved passwords, etc.
+
+The three essential components of a URL are the protocol, the domain, and paths.
