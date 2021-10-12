@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+      <title>
+        Florence Coffee Company
+      </title>
+      <!-- Define the character set used: -->
+      <meta charset="UTF-8">
+      <!-- Provide a description of your page: -->
+      <meta name="description" content="Webpage for Florence Coffee Company">
+      <!-- Provide the author information for the page: -->
+      <meta name="author" content="Noah Baney">
+      <!-- Other meta elements -->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+        table, th, td {
+        border: 1px solid black;
+        padding: 5px;
+        }
+      </style>
+</head>
+
+<body>
+      <img src="images/flocologo.png" width="512" height="512" alt="Photo of Florence Coffee Company's logo" title="Florence Coffee Co. Logo" />
+      <h1>
+        Contact
+      </h1>
+      <address>
+        Florence Coffee Company<br />
+        Main Location:<br />
+        11880 Hwy 93 South<br />
+        Lolo, MT 59804<br />
+        (406) 543-0561<br />
+      </address>
+      <p><a href="mailto:florencecoffeeco@gmail.com">Email us!</a></p>
+      <p><a href="https://www.facebook.com/FlorenceCoffeeCo/about/?ref=page_internal" target="_new">Check out our Facebook page!</a></p>
+      <p>
+      <table>
+        <tr>
+          <th scope="col">Location</th>
+          <th scope="col">Sunday</th>
+          <th scope="col">Monday</th>
+          <th scope="col">Tuesday</th>
+          <th scope="col">Wednesday</th>
+          <th scope="col">Thursday</th>
+          <th scope="col">Friday</th>
+          <th scope="col">Saturday</th>
+        </tr>
+        <tr>
+          <th scope="row">Brooks Street, Missoula</th>
+          <td>5:30 AM - 7:00 PM</td>
+          <td>5:30 AM - 7:00 PM</td>
+          <td>5:30 AM - 7:00 PM</td>
+          <td>5:30 AM - 7:00 PM</td>
+          <td>5:30 AM - 7:00 PM</td>
+          <td>6:00 AM - 7:00 PM</td>
+          <td>6:00 AM - 7:00 PM</td>
+        </tr>
+        <tr>
+          <th scope="row">Reserve Street, Missoula</th>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>6:00 AM - 6:30 PM</td>
+          <td>6:00 AM - 6:30 PM</td>
+        </tr>
+        <tr>
+          <th scope="row">Higgins Avenue, Missoula</th>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>5:30 AM - 6:30 PM</td>
+          <td>6:00 AM - 6:30 PM</td>
+          <td>6:00 AM - 6:30 PM</td>
+        </tr>
+      </table>
+      </p>
+      <form method="POST" action="index.html">
+          Name:<br />
+          <input type="text" id="name" placeholder="Enter your name" autofocus>
+          <p>Do you prefer coffee or tea?</p>
+          <p>
+            <input type="radio" name="drink" value="coffee" />Coffee <br />
+            <input type="radio" name="drink" value="tea" />Tea <br />
+          </p>
+          <p>
+            How many days per week do you consume a caffeinated beverage?
+          </p>
+          <p>
+            <select name="number of days">
+              <option value="1-2">1-2 days</option>
+              <option value="3-4">3-4 days</option>
+              <option value="4+">4 or more days</option>
+            </select>
+          <p>Comments</p> <br />
+          <textarea name="comments" id="comments" rows="10" cols="30"></textarea> <br />
+          <input type="submit" value="submit" />
+      </form>
+</body>
+</html>
