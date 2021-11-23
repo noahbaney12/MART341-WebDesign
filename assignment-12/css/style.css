@@ -1,0 +1,37 @@
+.p1 {
+  font-size: 24pt;
+  font-family: monospace;
+  text-align: center;
+  border: 3px solid #FFD700;
+  border-style: ridge;
+}
+
+.container {
+    font-family: sans-serif;
+    font-size: 16pt;
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    background-color: gold;
+    margin: auto;
+}
+
+.tip-header {
+    font-size: 1.5em;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+}
+
+
+.hidden-content {
+    display: none;
+    font-size: 1em;
+    font-style: italic;
+    padding: 1em;
+}
+
+.container:hover .hidden-content {
+    display: inline-block;
+}
