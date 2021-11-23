@@ -1,0 +1,2 @@
+1. When using CSS, a margin is the space around an element's border. Padding is the space between an element's border and the element's content. The border is the boundary of the element itself.
+2. I had issues trying to get my elements to line up inline-block so I ended up settling for the basic display outline. I also was a bit pressed for time and could have done more to make the site look more aesthetically pleasing. 
