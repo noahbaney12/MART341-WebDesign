@@ -1,0 +1,71 @@
+header {
+    position: sticky;
+    background-color: maroon;
+    font-family: sans-serif;
+    font-size: 18pt;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding: 0.25em;
+}
+body {
+    background-color: beige;
+    text-align: center;
+}
+.menu-item {
+    margin: auto;
+    padding: 0.25em;
+    min-width: 75px;
+    font-size: 12pt;
+    font-weight: bold;
+    color: white;
+    background-color: white;
+    line-height: 2.1em;
+}
+.menu-item:hover {
+    background-color: white;
+    color: crimson;
+}
+a:link, a:visited {
+  background-color: maroon;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  display: inline-block;
+}
+a:hover, a:active {
+  background-color: white;
+  color: black;
+}
+.display-inline-block {
+    display: inline-block;
+}
+.paragraph {
+    font-size: 16pt;
+    font-family: sans-serif;
+}
+.photo {
+    font-family: sans-serif;
+    font-style: italic;
+}
+.video {
+    font-family: sans-serif;
+    font-style: bold;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.about {
+    font-family: sans-serif;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+}
